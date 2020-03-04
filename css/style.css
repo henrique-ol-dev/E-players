@@ -271,3 +271,8 @@ header img{
     margin: 0.08em 0;
     padding: 21px;
 }
+
+footer{
+    background-color: black;
+    box-shadow: 0px -6px 10px #000;
+}
