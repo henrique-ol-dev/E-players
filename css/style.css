@@ -154,6 +154,12 @@ header img{
     margin-bottom: 35px;
 }
 
+.ligas_imagens{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .sobre_fundo{
     background-image: url("../img/Teams/T6.jpg");
     background-position: center;
@@ -529,6 +535,7 @@ header .fa-bars{
     #menu ul{
         flex-direction: column;
         height:300px ;
+        margin-left: 1em;
     }
 
     #menu a{
@@ -536,6 +543,95 @@ header .fa-bars{
         padding: 0.5em 0;
     }
 
+    .partidas .container{
+        width: 97%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .em_andamento{
+        width: 37%;
+        align-self: flex-start;
+        margin-left: 1em;
+    }
+     
+    .proximas_partidas{
+        width: 90%;
+    }
+
+    .partidas img{
+        width: 30px;
+        padding:0 10px ;
+    }
+
+    .banner{
+        height: 250px;
+    }
+
+    .banner img{
+        max-width:100px;
+    }
+
+    .ligas{
+        flex-direction: column;
+    }
+
+    .ligas div:nth-last-child(1){
+        display: flex;
+
+    }
+
+    .ligas h4, .ligas h3{
+        font-size: 2em;
+        line-height: 20px;
+        margin-right: 0.5em;
+    }
+
+    .sobre img{
+        display: none;
+    }
+
+    .texto_sobre{
+        width: 90%;
+    }
+
+    .content{
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .content section{
+        width: 90%;
+        margin: auto;
+    }
+    .content article{
+        width: 100%;
+    }
+
+    .card{
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+
+    .card img{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .card div{
+        padding: 1em;
+    }
+
+    footer .container{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1em;
+    }
+
+    footer .container div{
+        margin-bottom: 1em;
+    }
 
 
 }
